@@ -8,10 +8,66 @@
 
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body{
     font-family: "Roboto", sans-serif;
+    height: 100vh;
 }
+.footer-logo{
+    width: 65px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 56px;
+    margin-left: 81px;
+}
+.footer-contacts{
+    position: absolute;
+    width: 141px;
+    height: 41px;
+    margin-left: 183px;
+    margin-top: 62px;
+    margin-bottom: 68px;
+}
+.footer-nav{
+    margin: auto;
+    display: flex; /* сделали элемент гибким*/
+    justify-content: right;
+    align-items: center;
+    margin-right: 81px;
+}
+.footer-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none; /* отключаем точки у списка*/
+    display: flex;
+    text-align: center;
+}
+.footer-icon{
+    width: 125px;
+    height: 20px;
+    margin-left: 383px;
+    margin-top: 73px;
+    margin-bottom: 78px;
+    position: absolute;
+}
+.footer{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 99px;
+    height: 171px;
+    top: 853px;
+    margin-bottom: auto;
+    background: #D7D7D7;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .header{
     background-color: #635854;
     padding-top: 12px;
@@ -37,8 +93,12 @@ body{
     margin-right: 40px;
 }
 .navbar-link{
-    text-decoration: none; /* убираем поджчеркивание */
-    color: #fff;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-link{
+    color: #635854;
 }
 .navbar-contacts{
     text-align: right;
